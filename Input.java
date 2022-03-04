@@ -5,6 +5,7 @@ public class Input {
 
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
+        scan.close();
         System.out.println(a);
     }
 }
