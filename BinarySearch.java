@@ -8,7 +8,6 @@ public class BinarySearch {
         userInput = scan.nextInt();
         scan.close();
         binarySearch(arr, arrLen, userInput);
-
     }
 
     public static void binarySearch(int arr[], int arrLen, int toFind) {
