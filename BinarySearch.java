@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BinarySearch {
     public static void main(String args[]) {
-        int arr[] = { 1, 3, 546, 76, 787, 65, 445, 76, 45, -32, -65, -54, 32, 0 };
+        int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         int arrLen = arr.length, userInput;
         Scanner scan = new Scanner(System.in);
         userInput = scan.nextInt();
