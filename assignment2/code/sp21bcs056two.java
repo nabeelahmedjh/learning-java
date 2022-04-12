@@ -1,3 +1,5 @@
+package assignment2.code;
+
 import java.util.Scanner;
 
 abstract class CheckNumber {
