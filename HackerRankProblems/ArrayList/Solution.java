@@ -1,4 +1,4 @@
-package HackerRankProblems;
+package HackerRankProblems.ArrayList;
 
 import java.util.*;
 

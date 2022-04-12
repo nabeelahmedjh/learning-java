@@ -1,4 +1,4 @@
-package com.HackerRank;
+package HackerRankProblems;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -18,7 +18,8 @@ public class Anagram {
         if (string1.length() != string2.length())
             notAnagram = true;
         for (int i = 0; i < string1.length(); i++) {
-            if (!(count1.get(Character.toLowerCase(string1.charAt(i))).equals(count2.get(Character.toLowerCase(string1.charAt(i)))))){
+            if (!(count1.get(Character.toLowerCase(string1.charAt(i)))
+                    .equals(count2.get(Character.toLowerCase(string1.charAt(i)))))) {
                 notAnagram = true;
 
             }
@@ -29,9 +30,8 @@ public class Anagram {
         else
             System.out.println("Anagrams");
 
-
-
     }
+
     public static void hashFunction(String str, HashMap<Character, Integer> map) {
         for (int i = 0; i < str.length(); i++) {
 
