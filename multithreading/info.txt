@@ -1,0 +1,27 @@
+Thread Class vs Runnable Interface
+
+1.  If we extend the Thread class, our class cannot extend any other
+class because Java doesn’t support multiple inheritance.
+But, if we implement the Runnable interface, our class can
+still extend other base classes.
+
+
+2.  We can achieve basic functionality of a thread by extending Thread class because
+it provides some inbuilt methods like yield(), interrupt() etc. that are not
+available in Runnable interface.
+
+
+3.  Using runnable will give you an object that can be shared amongst multiple threads.
+
+
+"""Advantage of Thread-based Multitasking over Process-Thread Multitasking"""
+The main advantages of thread-based multitasking as compared to process-based tasking are
+
+1. Threads share the same memory address space.
+
+2. Context switching from one thread to another thread is less expensive than between processes.
+
+3. The cost of communication between threads is relatively low.
+
+4. Threads are lightweight as compared to processes (heavyweight). They utilize the minimum resources of the system.
+They take less memory and less processor time.
